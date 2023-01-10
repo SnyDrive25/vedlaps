@@ -1,12 +1,17 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
 import './App.css';
+import Home from './pages/home/Home';
+import Links from './pages/links/Links';
 
 function App() {
   return (
-    <div className="App">
-      <h1>VedLaps</h1>
-      <h2>Le podcast de Vinci Eco Drive</h2>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/links" element={<Links />}></Route>
+      </Routes>
+    </Router>
   );
 }
 

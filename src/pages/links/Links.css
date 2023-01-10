@@ -1,0 +1,11 @@
+.Links {
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.Links img {
+    width: 100px;
+    height: auto;
+    margin: 2vh;
+    filter: brightness(0);
+}

@@ -1,0 +1,24 @@
+.Home {
+    padding-top: 5vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h1,
+h2 {
+    color: var(--black);
+}
+
+.Home img {
+    width: 100px;
+    height: auto;
+    margin: 2vh;
+    filter: brightness(0);
+}
