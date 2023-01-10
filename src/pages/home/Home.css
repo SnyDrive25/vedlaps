@@ -22,3 +22,31 @@ h2 {
     margin: 2vh;
     filter: brightness(0);
 }
+
+.spot {
+    width: 80%;
+    margin-top: 17vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spot-element {
+    box-shadow: 0 0 2em var(--black);
+    height: 152px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .spot {
+        width: 95%;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .spot {
+        width: 80%;
+    }
+
+}
