@@ -1,7 +1,7 @@
 .Home {
     height: auto;
     min-height: 100vh;
-    padding-top: 5vh;
+    padding-top: 17vh;
     padding-bottom: 0;
     margin-bottom: 0;
     text-align: center;
@@ -33,7 +33,7 @@ h2 {
     border-radius: 12px;
     background-color: #d81830;
     box-shadow: 0 0 4em rgb(0,0,0,.4);
-    height: 600px;
+    height: 64vh;
     width: 100%;
     border: none;
 }
@@ -44,6 +44,12 @@ h2 {
         width: 95%;
     }
 
+    .boxes div {
+        width: 450px;
+        height: 400px;
+        max-width: 95vw;
+    }
+    
 }
 
 @media only screen and (min-width: 1000px) {
@@ -52,30 +58,17 @@ h2 {
         width: 80%;
     }
 
-}
+    .boxes div {
+        width: 300px;
+        height: 300px;
+    }
 
-.bg-triangle {
-    position: absolute;
-    z-index: -1;
-    top: 40vh;
-    width: 0vw;
-    height: 40vh;
-    border: 0vw solid transparent;
-    border-top: 40vh solid transparent;
-    border-right: 100vw solid var(--dark);
-}
-
-.bg-carre {
-    position: absolute;
-    top: 119vh;
-    width: 100vw;
-    background-color: var(--dark);
-    height: fit-content;
-    padding-bottom: 5vh;
 }
 
 .boxes {
-    width: 80%;
+    width: 100%;
+    max-width: 1400px;
+    margin-top: 100px !important;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -85,11 +78,57 @@ h2 {
 }
 
 .boxes div {
-    width: 350px;
-    max-width: 80vw;
-    height: 350px;
-    box-shadow: 0 0 4em rgb(0,0,0,.4);
+    position: relative;
     border-radius: 12px;
     margin-left: auto;
     margin-right: auto;
+    transition: all.2s;
+}
+
+.boxes div img {
+    filter: none;
+    box-shadow: 0 0 4em rgb(0,0,0,.4);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    transition: all.2s;
+}
+
+.boxes div span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    width: calc(100% - 18px);
+    height: calc(100% - 18px);
+    text-align: center;
+    background-color: rgb(208, 14, 36, .7);
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 9px;
+    border-radius: 12px;
+    transition: all.2s;
+}
+
+.boxes div:hover {
+    cursor: pointer;
+}
+
+.boxes div:hover img,
+.boxes div:hover span {
+    transform: scale(-1, 1) rotateY(180deg);
+}
+
+.boxes div:hover span {
+    opacity: 1;
+    backdrop-filter: blur(.2em);
+}
+
+.boxes div h2 {
+    position: absolute;
+    top: -1.2em;
+    right: 0;
+    width: fit-content;
 }

@@ -1,0 +1,168 @@
+#Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    z-index: 4;
+    opacity: 1;
+    padding-top: 1vh;
+    background-color: var(--main);
+    transition: all.4s;
+}
+
+.titles {
+    display: flex;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 700px;
+    float: right;
+    max-width: 80vw;
+}
+
+.titles a {
+    text-decoration: none;
+    line-height: 10vh;
+    font-size: 2em !important;
+    color: var(--light);
+    font-weight: 400;
+    padding-left: .4em;
+    padding-right: .4em;
+    width: fit-content;
+}
+
+@media only screen and (max-width:1000px) {
+
+    #Navbar {
+        display: flex;
+        padding-top: 0 !important;
+    }
+
+    .notel {
+        display: none;
+    }
+
+    .logo {
+        position: relative;
+        margin-top: .5vh;
+        height: 9vh;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        filter: invert(1) brightness(25);
+    }
+    
+    #hamburger,
+    #cross {
+        filter: invert(1);
+        pointer-events: all !important;
+        user-select: all !important;
+        position: relative;
+        float: right !important;
+        margin: 1.5vh;
+        height: 7vh !important;
+        width: 7vh !important;
+        background-color: transparent;
+        border: none;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #hamburger {
+        background-size: 100%;
+        background-image: url("../../images/hamburger.png");
+    }
+
+    #cross {
+        display: none;
+        background-size: 50%;
+        background-image: url("../../images/cross.png");
+    }
+
+    #hamburger:hover,
+    #cross:hover {
+        cursor: pointer;
+    }
+
+    #scrolled {
+        display: none;
+        position: absolute;
+        top: 12vh;
+        height: 45vh;
+        width: 100%;
+        text-align: center;
+        background-color: transparent;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    #scrolled a {
+        text-decoration: none;
+        color: var(--light);
+        font-size: 1.4em;
+    }
+
+    .titles {
+        width: 100vw !important;
+        display: block;
+        max-width: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .titles a {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:1000px) {
+
+    #Navbar {
+        display: inline-flex;
+    }
+
+    .logo {
+        position: absolute;
+        top: 1.5vh;
+        left: 7em;
+        height: 9vh;
+    }
+    
+    #hamburger,
+    #cross,
+    #scrolled {
+        display: none;
+    }
+
+    .titles {
+        margin-right: 7em;
+    }
+
+    .titles a {
+        font-size: 1.5em;
+        font-weight: 500;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titles a:hover {
+        cursor: pointer;
+        border-bottom: .2em solid var(--light);
+    }
+
+}
+
+.logo {
+    width: fit-content;
+    filter: invert(1) brightness(25);
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+}
