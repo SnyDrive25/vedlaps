@@ -13,10 +13,6 @@
     flex-wrap: wrap;
 }
 
-.left, .right {
-    margin: 25px auto;
-}
-
 .left button {
     margin-top: 50px;
     background-color: var(--light);
@@ -37,20 +33,18 @@
 
 .right img {
     filter: none !important;
-    height: 100vh !important;
     width: auto !important;
-    float: left;
     margin: 0 !important;
 }
 
 .right {
     background-image: url("../../images/casque.png");
-    background-size: 111%;
-    background-position: -111% 4%;
     background-repeat: no-repeat;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
     text-align: left;
 }
 
@@ -67,8 +61,6 @@ p {
 }
 
 .spot {
-    width: 100%;
-    padding: 10%;
     margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
@@ -80,18 +72,15 @@ p {
 }
 
 .spot-elmt {
+    margin-top: 50px;
     border-radius: 12px;
-    box-shadow: 0 0 4em rgb(0,0,0,.4);
+    box-shadow: 0 0 4em rgb(0, 0, 0, .4);
     height: 64vh;
-    width: 100%;
+    width: 90%;
     border: none;
 }
 
 @media only screen and (max-width: 1000px) {
-
-    .spot {
-        width: 95%;
-    }
 
     .boxes div {
         width: 450px;
@@ -99,23 +88,26 @@ p {
         max-width: 95vw;
     }
 
-    .left, .right {
-        width: 70vw;
+    .left,
+    .right {
+        width: 100vw;
         margin-left: auto;
         margin-right: auto;
     }
-        
+
     .left button {
-        width: 100%;
+        width: 95%;
         padding: 4%;
         margin-left: auto;
         margin-right: auto;
     }
 
     p {
-        width: 100%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
     }
-        
+
     h1 {
         text-align: center;
         font-size: 72px;
@@ -128,12 +120,38 @@ p {
         transform: translateX(1px);
     }
 
+    .right {
+        padding-top: 70vh !important;
+        background-size: 100%;
+        background-position: 20% 20%;
+        filter: drop-shadow(3em 3em 1em var(--black));
+    }
+
+    .left,
+    .right {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .right img {
+        height: 60vh !important;
+        float: center;
+    }
+
+    .spot {
+        width: 100%;
+        padding: 0;
+    }
+
 }
 
 @media only screen and (min-width: 1000px) {
 
     .spot {
         width: 80%;
+        padding: 10%;
     }
 
     .boxes div {
@@ -145,11 +163,11 @@ p {
         width: 25vw;
         min-width: 430px;
     }
-    
+
     .right {
         width: 55vw;
     }
-            
+
     .left button {
         width: 410px;
         padding: 20px;
@@ -162,13 +180,29 @@ p {
     h1 {
         font-size: 124px;
     }
-    
+
     h2 {
         font-size: 50px;
         letter-spacing: 20px;
         transform: translateX(7px);
     }
-    
+
+    .right {
+        background-size: 84%;
+        background-position: 150% 15%;
+        filter: drop-shadow(3em 3em 1em var(--black));
+    }
+
+    .left,
+    .right {
+        margin: 25px auto;
+    }
+
+    .right img {
+        height: 100vh !important;
+        float: left;
+    }
+
 }
 
 .boxes {
@@ -193,7 +227,7 @@ p {
 
 .boxes div img {
     filter: none;
-    box-shadow: 0 0 4em rgb(0,0,0,.4);
+    box-shadow: 0 0 4em rgb(0, 0, 0, .4);
     margin: 0;
     padding: 0;
     width: 100%;
