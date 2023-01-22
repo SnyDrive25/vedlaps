@@ -28,19 +28,19 @@ function Navbar() {
     return (
         <div id="Navbar">
             <div className="logo">
-                <a href="https://podcast.vinciecodrive.fr#home"><img src={logo} alt="logo_ved"></img></a>
+                <a href="#home"><img src={logo} alt="logo_ved"></img></a>
             </div>
             <div className="titles">
-                <a href="https://podcast.vinciecodrive.fr#concept" id="studies">Le concept</a>
-                <a href="https://podcast.vinciecodrive.fr#episodes" id="resume">Episodes</a>
-                <a href="https://podcast.vinciecodrive.fr#plateformes" id="home">Plateformes</a>
+                <a href="#concept" id="studies">Le concept</a>
+                <a href="#episodes" id="resume">Episodes</a>
+                <a href="#plateformes" id="home">Plateformes</a>
                 <span id="hamburger" onClick={() => biggerNav()}></span>
                 <span id="cross" onClick={() => biggerNav()}></span>
             </div>
             <div id="scrolled">
-                <a href="https://podcast.vinciecodrive.fr#concept" id="studies">Concept</a>
-                <a href="https://podcast.vinciecodrive.fr#episodes" id="resume">Episodes</a>
-                <a href="https://podcast.vinciecodrive.fr#plateformes" id="home">Plateformes</a>
+                <a href="#concept" id="studies">Concept</a>
+                <a href="#episodes" id="resume">Episodes</a>
+                <a href="#plateformes" id="home">Plateformes</a>
             </div>
         </div>
     );

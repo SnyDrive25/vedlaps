@@ -64,7 +64,13 @@ p {
     margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--light);
+    background-color: var(--grey);
+}
+
+.spot p {
+    width: 90%;
+    color: var(--black);
+    font-weight: 300 !important;
 }
 
 .spot h1 {
@@ -199,7 +205,8 @@ p {
     }
 
     .right img {
-        height: 100vh !important;
+        height: 111vh !important;
+        min-height: 925px !important;
         float: left;
     }
 
