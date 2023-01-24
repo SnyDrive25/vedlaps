@@ -1,6 +1,10 @@
 import React from 'react';
 import './Home.css';
 import phone from '../../images/iphone.png';
+import casque from '../../images/casque.png';
+import amazon from '../../images/amazon-music.png';
+import apple from '../../images/apple-podcast.png';
+import deezer from '../../images/deezer.png';
 
 function Home() {
 
@@ -22,9 +26,15 @@ function Home() {
             nouvelle vision sur notre monde.
           </p>
           <button>Écouter le dernier épisode</button>
+          <div className='logos'>
+            <a href='/'><img src={amazon} alt="amazon-music"></img></a>
+            <a href='/'><img src={apple} alt="apple-podcast"></img></a>
+            <a href='/'><img src={deezer} alt="deezer"></img></a>
+          </div>
         </div>
         <div className='right'>
           <img src={phone} alt='vedlaps_iphone'></img>
+          <img src={casque} alt='vedlaps_casque'></img>
         </div>
       </div>
       <a className='lk' name="concept" href='../#concept'> </a>
