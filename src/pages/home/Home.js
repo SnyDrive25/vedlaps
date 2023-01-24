@@ -40,18 +40,35 @@ function Home() {
       <a className='lk' name="concept" href='../#concept'> </a>
       <div className='spot'>
         <h1>Le concept</h1>
+        <div className='flex'>
+          <iframe title='lap1' className='spot-elmt-small' src="https://open.spotify.com/embed/show/3KRDSrplsy5jYVssZHm2uM?utm_source=generator" allowFullScreen="" loading="lazy"></iframe>
+          <p>
+            Vinci Eco Drive lance son propre podcast ! Mensuel, il vous fera
+            découvir différentes personnalité ayant un rapport proche ou
+            lointain avec le monde de l’automobile.
+            Les invités parlerons de leur expérience avec Vinci Eco Drive, de leur
+            point de vue sur les deux projets de l’association et aussi en grande
+            partie de leur pensées sur le monde automobile actuel, les
+            changements qu’imposent notre monde et leur vision de l’avenir.
+            Que vous soyez dans les transports en commun, dans votre canapé,
+            en train de faire le ménage ou même en voiture, vous décourirez le
+            parcours et les meilleures anecdotes de nos invités !
+          </p>
+        </div>
+      </div>
+      <a className='lk' name="episodes" href='../#episodes'> </a>
+      <div className='episodes'>
+        <h1>Les épisodes</h1>
         <iframe title='lap1' className='spot-elmt' src="https://open.spotify.com/embed/show/3KRDSrplsy5jYVssZHm2uM?utm_source=generator" allowFullScreen="" loading="lazy"></iframe>
         <p>
-          Vinci Eco Drive lance son propre podcast ! Mensuel, il vous fera
-          découvir différentes personnalité ayant un rapport proche ou
-          lointain avec le monde de l’automobile.
-          Les invités parlerons de leur expérience avec Vinci Eco Drive, de leur
-          point de vue sur les deux projets de l’association et aussi en grande
-          partie de leur pensées sur le monde automobile actuel, les
-          changements qu’imposent notre monde et leur vision de l’avenir.
-          Que vous soyez dans les transports en commun, dans votre canapé,
-          en train de faire le ménage ou même en voiture, vous décourirez le
-          parcours et les meilleures anecdotes de nos invités !
+          Tour en cours... D’autres épisodes arrivent vite !
+        </p>
+      </div>
+      <a className='lk' name="plateformes" href='../#plateformes'> </a>
+      <div className='spot'>
+        <h1>Les plateformes</h1>
+        <p>
+          VedLaps - Le podcast est disponible sur toutes les grandes plateformes de podcast.
         </p>
       </div>
     </div>

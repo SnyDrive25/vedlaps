@@ -60,7 +60,8 @@ p {
 }
 
 p {
-    margin-top: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 28px;
 }
 
@@ -71,17 +72,26 @@ p {
     filter: grayscale(1) invert(1) brightness(17);
 }
 
-.spot {
-    margin-top: 5vh;
+.spot, .episodes {
     margin-left: auto;
     margin-right: auto;
+}
+
+.spot {
     background-color: var(--grey);
 }
 
-.spot p {
+.spot p, .episodes p {
     width: 90%;
-    color: var(--black);
     font-weight: 300 !important;
+}
+
+.spot p {
+    color: var(--black);
+}
+
+.episodes p {
+    color: var(--light);
 }
 
 .spot h1 {
@@ -94,6 +104,12 @@ p {
     box-shadow: 0 0 4em rgb(0, 0, 0, .4);
     height: 64vh;
     width: 90%;
+    border: none;
+}
+
+.spot-elmt-small {
+    margin-top: 50px;
+    box-shadow: 0 0 4em rgb(0, 0, 0, .4);
     border: none;
 }
 
@@ -116,6 +132,7 @@ p {
         width: 95%;
         margin-left: auto;
         margin-right: auto;
+        font-size: 1.2em;
     }
 
     h1 {
@@ -151,18 +168,33 @@ p {
         float: center;
     }
 
-    .spot {
+    .spot, .episodes {
         width: 100%;
-        padding: 0;
+        padding: 5vh 0;
     }
 
+    .spot-elmt-small {
+        height: 70vh;
+        width: 100vw;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .spot h1, .episodes h1 {
+        font-size: 2.5em !important;
+    }
+    
 }
 
 @media only screen and (min-width: 1000px) {
 
-    .spot {
-        width: 80%;
-        padding: 10%;
+    .spot, .episodes {
+        width: 90%;
+        padding: 5%;
     }
 
     .boxes div {
@@ -222,6 +254,22 @@ p {
         height: 50vh !important;
         min-height: 825px !important;
         float: left;
+    }
+
+    .spot-elmt-small {
+        height: 500px;
+        width: 300px;
+        border-radius: 12px;
+    }
+        
+    .flex {
+        display: flex;
+        gap: 10vw;
+    }
+
+    .spot p, .episodes p {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
 }
