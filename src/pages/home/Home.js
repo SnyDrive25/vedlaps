@@ -5,6 +5,10 @@ import casque from '../../images/casque.png';
 import amazon from '../../images/amazon-music.png';
 import apple from '../../images/apple-podcast.png';
 import deezer from '../../images/deezer.png';
+import deezer_big from '../../images/deezer_big.png';
+import spotify_big from '../../images/spotify_big.svg';
+import youtube_big from '../../images/youtube_big.svg';
+import amazon_big from '../../images/amazon_big.svg';
 
 function Home() {
 
@@ -27,9 +31,9 @@ function Home() {
           </p>
           <button>Écouter le dernier épisode</button>
           <div className='logos'>
-            <a href='/'><img src={amazon} alt="amazon-music"></img></a>
-            <a href='/'><img src={apple} alt="apple-podcast"></img></a>
-            <a href='/'><img src={deezer} alt="deezer"></img></a>
+            <a href='https://music.amazon.fr/podcasts/a53f2fd7-196e-4153-9b67-cf94f1dc437c/vedlaps---le-podcast?refMarker=null' target="_blank" rel="noreferrer"><img src={amazon} alt="amazon-music"></img></a>
+            <a href='https://podcasts.apple.com/fr/podcast/vedlaps-le-podcast/' target="_blank" rel="noreferrer"><img src={apple} alt="apple-podcast"></img></a>
+            <a href='https://www.deezer.com/fr/show/5608237' target="_blank" rel="noreferrer"><img src={deezer} alt="deezer"></img></a>
           </div>
         </div>
         <div className='right'>
@@ -60,16 +64,25 @@ function Home() {
       <div className='episodes'>
         <h1>Les épisodes</h1>
         <iframe title='lap1' className='spot-elmt' src="https://open.spotify.com/embed/show/3KRDSrplsy5jYVssZHm2uM?utm_source=generator" allowFullScreen="" loading="lazy"></iframe>
-        <p>
+        <p className='center'>
           Tour en cours... D’autres épisodes arrivent vite !
         </p>
       </div>
       <a className='lk' name="plateformes" href='../#plateformes'> </a>
       <div className='spot'>
-        <h1>Les plateformes</h1>
+        <h1 className='black'>Les plateformes</h1>
         <p>
           VedLaps - Le podcast est disponible sur toutes les grandes plateformes de podcast.
         </p>
+        <div className='flex_logos'>
+            <a href='https://www.deezer.com/fr/show/5608237' target="_blank" rel="noreferrer"><img src={deezer_big} alt="deezer" className='small'></img></a>
+            <a href='https://open.spotify.com/show/3KRDSrplsy5jYVssZHm2uM?si=c1047431684d4c0a' target="_blank" rel="noreferrer"><img src={spotify_big} alt="spotify"></img></a>
+            <a href='https://www.youtube.com/@vinciecodrive' target="_blank" rel="noreferrer"><img src={youtube_big} alt="youtube" className='small'></img></a>
+            <a href='https://music.amazon.fr/podcasts/a53f2fd7-196e-4153-9b67-cf94f1dc437c/vedlaps---le-podcast?refMarker=null' target="_blank" rel="noreferrer"><img src={amazon_big} alt="amazon"></img></a>
+          </div>
+      </div>
+      <div className='episodes'>
+        <p></p>
       </div>
     </div>
   );
