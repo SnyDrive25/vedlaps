@@ -80,9 +80,9 @@ p {
     background-color: var(--grey);
 }
 
-.spot p, .episodes p {
+.spot p, .episodes p, .flex p {
     width: 90%;
-    font-weight: 300 !important;
+    font-weight: lighter;
 }
 
 .spot p {
