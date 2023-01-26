@@ -48,11 +48,11 @@ function Home() {
           <iframe title='lap1' className='spot-elmt-small' src="https://open.spotify.com/embed/show/3KRDSrplsy5jYVssZHm2uM?utm_source=generator" allowFullScreen="" loading="lazy"></iframe>
           <p>
             Vinci Eco Drive lance son propre podcast ! Mensuel, il vous fera
-            découvir différentes personnalité ayant un rapport proche ou
+            découvir différentes personnalités ayant un rapport proche ou
             lointain avec le monde de l'automobile.
-            Les invités parlerons de leur expérience avec Vinci Eco Drive, de leur
+            Les invités parleront de leur expérience avec Vinci Eco Drive, de leur
             point de vue sur les deux projets de l'association et aussi en grande
-            partie de leur pensées sur le monde automobile actuel, les
+            partie de leur pensée sur le monde automobile actuel, les
             changements qu'imposent notre monde et leur vision de l'avenir.
             Que vous soyez dans les transports en commun, dans votre canapé,
             en train de faire le ménage ou même en voiture, vous décourirez le
