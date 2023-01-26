@@ -23,7 +23,7 @@ function Home() {
           <p>
             Ce podcast de Vinci Eco Drive
             vous propose de découvrir des
-            personnalité en lien avec nos
+            personnalités en lien avec nos
             projet et l'association mais
             également des personnalités
             différentes apportant une
@@ -49,11 +49,11 @@ function Home() {
           <p>
             Vinci Eco Drive lance son propre podcast ! Mensuel, il vous fera
             découvir différentes personnalité ayant un rapport proche ou
-            lointain avec le monde de l’automobile.
+            lointain avec le monde de l'automobile.
             Les invités parlerons de leur expérience avec Vinci Eco Drive, de leur
-            point de vue sur les deux projets de l’association et aussi en grande
+            point de vue sur les deux projets de l'association et aussi en grande
             partie de leur pensées sur le monde automobile actuel, les
-            changements qu’imposent notre monde et leur vision de l’avenir.
+            changements qu'imposent notre monde et leur vision de l'avenir.
             Que vous soyez dans les transports en commun, dans votre canapé,
             en train de faire le ménage ou même en voiture, vous décourirez le
             parcours et les meilleures anecdotes de nos invités !
@@ -65,7 +65,7 @@ function Home() {
         <h1>Les épisodes</h1>
         <iframe title='lap1' className='spot-elmt' src="https://open.spotify.com/embed/show/3KRDSrplsy5jYVssZHm2uM?utm_source=generator" allowFullScreen="" loading="lazy"></iframe>
         <p className='center'>
-          Tour en cours... D’autres épisodes arrivent vite !
+          Tour en cours... D'autres épisodes arrivent vite !
         </p>
       </div>
       <a className='lk' name="plateformes" href='../#plateformes'> </a>
@@ -75,11 +75,11 @@ function Home() {
           VedLaps - Le podcast est disponible sur toutes les grandes plateformes de podcast.
         </p>
         <div className='flex_logos'>
-            <a href='https://www.deezer.com/fr/show/5608237' target="_blank" rel="noreferrer"><img src={deezer_big} alt="deezer" className='small'></img></a>
-            <a href='https://open.spotify.com/show/3KRDSrplsy5jYVssZHm2uM?si=c1047431684d4c0a' target="_blank" rel="noreferrer"><img src={spotify_big} alt="spotify"></img></a>
-            <a href='https://www.youtube.com/@vinciecodrive' target="_blank" rel="noreferrer"><img src={youtube_big} alt="youtube" className='small'></img></a>
-            <a href='https://music.amazon.fr/podcasts/a53f2fd7-196e-4153-9b67-cf94f1dc437c/vedlaps---le-podcast?refMarker=null' target="_blank" rel="noreferrer"><img src={amazon_big} alt="amazon"></img></a>
-          </div>
+          <a href='https://www.deezer.com/fr/show/5608237' target="_blank" rel="noreferrer"><img src={deezer_big} alt="deezer" className='small'></img></a>
+          <a href='https://open.spotify.com/show/3KRDSrplsy5jYVssZHm2uM?si=c1047431684d4c0a' target="_blank" rel="noreferrer"><img src={spotify_big} alt="spotify"></img></a>
+          <a href='https://www.youtube.com/@vinciecodrive' target="_blank" rel="noreferrer"><img src={youtube_big} alt="youtube" className='small'></img></a>
+          <a href='https://music.amazon.fr/podcasts/a53f2fd7-196e-4153-9b67-cf94f1dc437c/vedlaps---le-podcast?refMarker=null' target="_blank" rel="noreferrer"><img src={amazon_big} alt="amazon"></img></a>
+        </div>
       </div>
       <div className='episodes'>
         <p></p>

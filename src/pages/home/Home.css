@@ -71,7 +71,8 @@ p {
     filter: grayscale(1) invert(1) brightness(17);
 }
 
-.spot, .episodes {
+.spot,
+.episodes {
     margin-left: auto;
     margin-right: auto;
 }
@@ -80,7 +81,9 @@ p {
     background-color: var(--grey);
 }
 
-.spot p, .episodes p, .flex p {
+.spot p,
+.episodes p,
+.flex p {
     width: 90%;
     font-weight: lighter;
 }
@@ -116,7 +119,7 @@ p {
     p {
         font-size: 28px;
     }
-    
+
     .boxes div {
         width: 450px;
         height: 400px;
@@ -170,7 +173,8 @@ p {
         float: center;
     }
 
-    .spot, .episodes {
+    .spot,
+    .episodes {
         width: 100%;
         padding: 5vh 0;
     }
@@ -189,10 +193,20 @@ p {
         gap: 25px;
     }
 
-    .spot h1, .episodes h1 {
+    .spot h1,
+    .episodes h1 {
         font-size: 2.5em !important;
     }
-    
+
+    .flex_logos img {
+        height: 8vh !important;
+    }
+
+    .flex_logos .small {
+        height: 5vh !important;
+        margin-top: 2vh !important;
+    }
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -200,8 +214,9 @@ p {
     p {
         font-size: 1.4em;
     }
-    
-    .spot, .episodes {
+
+    .spot,
+    .episodes {
         width: 90%;
         padding: 5%;
     }
@@ -272,15 +287,25 @@ p {
         padding: 0;
         box-shadow: 0 0 4em rgb(0, 0, 0, .4);
     }
-        
+
     .flex {
         display: flex;
         gap: 10vw;
     }
 
-    .spot p, .episodes p {
+    .spot p,
+    .episodes p {
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+
+    .flex_logos img {
+        height: 10vh !important;
+    }
+
+    .flex_logos .small {
+        height: 8vh !important;
+        margin-top: 2vh !important;
     }
 
 }
@@ -403,15 +428,9 @@ p {
 
 .flex_logos img {
     filter: none !important;
-    height: 10vh !important;
     width: auto !important;
     max-height: none !important;
     max-width: none !important;
-}
-
-.flex_logos .small {
-    height: 8vh !important;
-    margin-top: 2vh !important;
 }
 
 .black {
