@@ -26,6 +26,31 @@ html {
   overflow-x: hidden !important;
 }
 
+::-moz-selection {
+  background: var(--light);
+  color: var(--main);
+}
+
+::selection {
+  background: var(--light);
+  color: var(--main);
+}
+
+@font-face {
+  font-family: 'yt-medium';
+  src: url('./fonts/youtube-sans-medium.ttf');
+}
+
+@font-face {
+  font-family: 'yt-bold';
+  src: url('./fonts/youtube-sans-bold.ttf');
+}
+
+@font-face {
+  font-family: 'yt-light';
+  src: url('./fonts/youtube-sans-light.ttf');
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -38,8 +63,18 @@ h2,
 span {
   margin: 0;
   padding: 0;
-  font-family: 'YouTube Sans', sans-serif;
   color: var(--light);
+}
+
+a,
+p,
+span {
+  font-family: 'yt-light';
+}
+
+h1,
+h2 {
+  font-family: 'yt-bold';
 }
 
 img {
@@ -62,4 +97,13 @@ button {
 
 iframe {
   padding: 0 !important;
+}
+
+strong {
+  font-family: 'yt-medium';
+  font-weight: 400;
+}
+
+p {
+  line-height: 128%;
 }

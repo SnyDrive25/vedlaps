@@ -28,8 +28,7 @@
     text-decoration: none;
     line-height: 11vh;
     font-size: 2em !important;
-    color: var(--light);
-    font-weight: 400;
+    color: var(--light);font-family: 'yt-medium';
     padding-left: .4em;
     padding-right: .4em;
     width: fit-content;

@@ -43,26 +43,26 @@ function Home() {
       </div>
       <a className='lk' name="concept" href='../#concept'> </a>
       <div className='spot'>
-        <h1>Le concept</h1>
+        <h2 className='red'>Le concept</h2>
         <div className='flex'>
           <iframe title='lap1' className='spot-elmt-small' src="https://open.spotify.com/embed/show/3KRDSrplsy5jYVssZHm2uM?utm_source=generator" allowFullScreen="" loading="lazy"></iframe>
           <p>
-            Vinci Eco Drive lance son propre podcast ! Mensuel, il vous fera
-            découvir différentes personnalités ayant un rapport proche ou
-            lointain avec le monde de l'automobile.
-            Les invités parleront de leur expérience avec Vinci Eco Drive, de leur
-            point de vue sur les deux projets de l'association et aussi en grande
-            partie de leur pensée sur le monde automobile actuel, les
-            changements qu'imposent notre monde et leur vision de l'avenir.
-            Que vous soyez dans les transports en commun, dans votre canapé,
-            en train de faire le ménage ou même en voiture, vous décourirez le
-            parcours et les meilleures anecdotes de nos invités !
+            <strong>Vinci Eco Drive</strong> lance son <strong>propre podcast ! Mensuel,</strong> il vous fera
+            découvir <strong>différentes personnalités</strong> ayant un rapport proche ou
+            lointain avec le <strong>monde de l'automobile</strong>.
+            Les invités parleront de <strong>leur expérience</strong> avec Vinci Eco Drive, de leur
+            <strong>point de vue</strong> sur les <strong>deux projets de l'association</strong> et aussi en grande
+            partie de leur pensée sur le <strong>monde automobile actuel</strong>, les
+            <strong>changements</strong> qu'imposent notre monde et leur <strong>vision de l'avenir</strong>.
+            Que vous soyez dans les <strong>transports en commun</strong>, dans votre <strong>canapé</strong>,
+            en train de faire le <strong>ménage</strong> ou même en <strong>voiture</strong>, vous décourirez le
+            <strong>parcours</strong> et les meilleures <strong>anecdotes</strong> de nos invités !
           </p>
         </div>
       </div>
       <a className='lk' name="episodes" href='../#episodes'> </a>
       <div className='episodes'>
-        <h1>Les épisodes</h1>
+        <h2>Les épisodes</h2>
         <iframe title='lap1' className='spot-elmt' src="https://open.spotify.com/embed/show/3KRDSrplsy5jYVssZHm2uM?utm_source=generator" allowFullScreen="" loading="lazy"></iframe>
         <p className='center'>
           Tour en cours... D'autres épisodes arrivent vite !
@@ -70,9 +70,9 @@ function Home() {
       </div>
       <a className='lk' name="plateformes" href='../#plateformes'> </a>
       <div className='spot'>
-        <h1 className='black'>Les plateformes</h1>
+        <h2 className='black'>Les plateformes</h2>
         <p>
-          VedLaps - Le podcast est disponible sur toutes les grandes plateformes de podcast.
+          <i>VedLaps - Le podcast</i> est <strong>disponible</strong> sur toutes les grandes <strong>plateformes de podcast</strong>.
         </p>
         <div className='flex_logos'>
           <a href='https://www.deezer.com/fr/show/5608237' target="_blank" rel="noreferrer"><img src={deezer_big} alt="deezer" className='small'></img></a>
