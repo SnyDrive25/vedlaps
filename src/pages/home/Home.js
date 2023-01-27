@@ -9,6 +9,7 @@ import deezer_big from '../../images/deezer_big.png';
 import spotify_big from '../../images/spotify_big.svg';
 import youtube_big from '../../images/youtube_big.svg';
 import amazon_big from '../../images/amazon_big.svg';
+import Navbar from '../../components/navbar/Navbar';
 
 function Home() {
 
@@ -16,6 +17,7 @@ function Home() {
 
   return (
     <div className="Home">
+      <Navbar />
       <div className='master'>
         <div className='left'>
           <h1>VedLaps</h1>
