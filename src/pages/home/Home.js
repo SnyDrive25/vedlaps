@@ -31,7 +31,7 @@ function Home() {
             différentes apportant une
             nouvelle vision sur notre monde.
           </p>
-          <button>Écouter le dernier épisode</button>
+          <a href="#episodes"><button>Écouter le dernier épisode</button></a>
           <div className='logos'>
             <a href='https://music.amazon.fr/podcasts/a53f2fd7-196e-4153-9b67-cf94f1dc437c/vedlaps---le-podcast?refMarker=null' target="_blank" rel="noreferrer"><img src={amazon} alt="amazon-music"></img></a>
             <a href='https://podcasts.apple.com/fr/podcast/vedlaps-le-podcast/' target="_blank" rel="noreferrer"><img src={apple} alt="apple-podcast"></img></a>
@@ -82,9 +82,6 @@ function Home() {
           <a href='https://www.youtube.com/@vinciecodrive' target="_blank" rel="noreferrer"><img src={youtube_big} alt="youtube" className='small'></img></a>
           <a href='https://music.amazon.fr/podcasts/a53f2fd7-196e-4153-9b67-cf94f1dc437c/vedlaps---le-podcast?refMarker=null' target="_blank" rel="noreferrer"><img src={amazon_big} alt="amazon"></img></a>
         </div>
-      </div>
-      <div className='episodes'>
-        <p></p>
       </div>
     </div>
   );

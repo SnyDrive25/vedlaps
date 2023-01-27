@@ -28,7 +28,7 @@ function Navbar() {
     return (
         <div id="Navbar">
             <div className="logo">
-                <a href="#home"><img src={logo} alt="logo_ved"></img></a>
+                <a href="#home"><img src={logo} className="invertColor" alt="logo_ved"></img></a>
             </div>
             <div className="titles">
                 <a href="#concept" id="studies">Le concept</a>

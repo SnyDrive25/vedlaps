@@ -165,3 +165,7 @@
     height: 100%;
     width: auto;
 }
+
+.invertColor {
+    filter: invert(1) brightness(0)  !important;
+}
